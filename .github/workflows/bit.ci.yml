@@ -30,7 +30,7 @@ jobs:
     - name: MSBuild prerelease
       run: dotnet build src/Bit-CI-release.sln
 
-    - name: Test
+    - name: Test rashmi duneja
       run: dotnet test --no-build --verbosity normal src/BlazorUI/Bit.BlazorUI.Tests/Bit.BlazorUI.Tests.csproj
 
   build:
